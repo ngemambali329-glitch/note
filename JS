@@ -1,0 +1,4 @@
+unction saveNote() {
+  let note = document.getElementById("note").value;
+  document.getElementById("output").innerText = note;
+}
